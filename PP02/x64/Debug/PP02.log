@@ -1,0 +1,5 @@
+﻿  Lecture03.cpp
+D:\VisualStudioCPlus\PP01\PP02\MGameLoop.hpp(28,15): warning C4156: 'delete' 배열 형식을 사용하지 않고 배열 식을 삭제했습니다. 배열 형식이 대체됩니다.
+D:\VisualStudioCPlus\PP01\PP02\MGameLoop.hpp(28,15): warning C4154: 배열 식을 삭제했습니다. 포인터로 변환이 제공됩니다.
+D:\VisualStudioCPlus\PP01\PP02\Lecture03.cpp(5,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  PP02.vcxproj -> D:\VisualStudioCPlus\PP01\x64\Debug\PP02.exe
