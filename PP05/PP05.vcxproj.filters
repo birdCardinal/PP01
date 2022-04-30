@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{18a813a2-4a9b-42af-9f99-9ce5dff42c1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,19 +23,20 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt">
-      <Filter>리소스 파일</Filter>
-    </Text>
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="MConsolUtil.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
     <ClInclude Include="MGameLoop.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="MConsoleUtil.hpp">
+    <ClInclude Include="MObject.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MComponent.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="Player.hpp">
-      <Filter>헤더 파일</Filter>
+      <Filter>Object</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
