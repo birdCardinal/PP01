@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP05", "PP05\PP05.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP06", "PP06\PP06.vcxproj", "{22D947AB-06DA-47C4-B054-F9D96EE2C67B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PP08", "PP08\PP08.vcxproj", "{923AC36E-EE22-4EB6-8F4E-4989E09458B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{22D947AB-06DA-47C4-B054-F9D96EE2C67B}.Release|x64.Build.0 = Release|x64
 		{22D947AB-06DA-47C4-B054-F9D96EE2C67B}.Release|x86.ActiveCfg = Release|Win32
 		{22D947AB-06DA-47C4-B054-F9D96EE2C67B}.Release|x86.Build.0 = Release|Win32
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|Any CPU.Build.0 = Debug|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|x64.ActiveCfg = Debug|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|x64.Build.0 = Debug|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Debug|x86.Build.0 = Debug|Win32
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|Any CPU.ActiveCfg = Release|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|Any CPU.Build.0 = Release|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|x64.ActiveCfg = Release|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|x64.Build.0 = Release|x64
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|x86.ActiveCfg = Release|Win32
+		{923AC36E-EE22-4EB6-8F4E-4989E09458B8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

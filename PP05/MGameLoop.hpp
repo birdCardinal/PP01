@@ -1,5 +1,6 @@
 #pragma once
 #include <chrono>
+#include <GLFW/glfw3.h>
 #include <thread>
 #include "MConsolUtil.hpp"
 #include "Player.hpp"
@@ -21,15 +22,31 @@ namespace MuSeoun_Engine
 		MGameLoop() { _isGameRunning = false; }
 		~MGameLoop() {}
 
+		static void error_callback(int error, const char* description)
+		{
+			fputs(description, stderr);
+		}
+		static void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+		{
+			if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
+				glfwSetWindowShouldClose(window, GL_TRUE);
+		}
+		GLFWwindow* window;
+
 		void Run()
 		{
+			window = glfwCreateWindow(640, 480, "Simple example", NULL, NULL);
 			_isGameRunning = true;
 			Initialize();
 
 			startRenderTimePoint = chrono::system_clock::now();
+		
+			if (!glfwInit())
+				exit(EXIT_FAILURE);
+		
 			while (_isGameRunning)
 			{
-
+			
 				Input();
 				Update();
 				Render();
@@ -69,6 +86,19 @@ namespace MuSeoun_Engine
 		}
 		void Render()
 		{
+			while (!glfwWindowShouldClose(window))
+			{
+				float ratio;
+				int width, height;
+				glfwGetFramebufferSize(window, &width, &height);
+				ratio = width / (float)height;
+
+
+				glClearColor(0, 0, 1, 1);
+				glClear(GL_COLOR_BUFFER_BIT);
+
+				glfwSwapBuffers(window);
+				glfwPollEvents();
 
 			cRenderer.Clear();
 
@@ -86,6 +116,7 @@ namespace MuSeoun_Engine
 			cRenderer.DrawString(fps);
 
 			this_thread::sleep_for(chrono::milliseconds(20));
+						}
 		}
 
 
