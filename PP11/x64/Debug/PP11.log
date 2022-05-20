@@ -1,0 +1,3 @@
+﻿  PP11.cpp
+D:\VisualStudioCPlus\PP01\PP11\Player.hpp(13,1): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  PP11.vcxproj -> D:\VisualStudioCPlus\PP01\x64\Debug\PP11.exe
