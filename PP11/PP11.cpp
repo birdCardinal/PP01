@@ -38,9 +38,6 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
         p->MoveRight(-0.01f);
     if (key == GLFW_KEY_LEFT && action == GLFW_RELEASE)
         p->MoveRight(0.0f);
-
-
-
 }
 
 
@@ -76,7 +73,7 @@ int main(void)
 
 
 
-        glClearColor(.0f, 0.0f, 0.0f, 0.1f);
+        glClearColor(0.0f, 0.0f, 0.0f, 0.1f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         for (int i = 0; i < 4; i++)
