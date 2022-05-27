@@ -1,0 +1,5 @@
+﻿  texture.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 매크로 재정의
+D:\VisualStudioCPlus\PP01\packages\glfw.3.3.7\build\native\include\GLFW\glfw3.h(123): message : 'APIENTRY'의 이전 정의를 참조하십시오.
+D:\VisualStudioCPlus\PP01\PP12\Player.hpp(12,1): warning C4305: '=': 'double'에서 'float'(으)로 잘립니다.
+  PP12.vcxproj -> D:\VisualStudioCPlus\PP01\x64\Debug\PP12.exe
